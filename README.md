@@ -1,6 +1,5 @@
 # nobelchaire
 
-Caseking Front End task
 
 Prototype: https://www.figma.com/proto/zgNUisvdwaVv305Vd1zKJr/Untitled?node-id=0%3A18&scaling=min-zoom
 
