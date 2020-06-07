@@ -1,3 +1,5 @@
+/* Color theme */
+
 :root {
   --primary-color: #17a2b8;
   --warning-color: #ee9310;
@@ -9,6 +11,8 @@
   --background-dark-color: #060606;
   --background-light-color: #f4f4f4;
 }
+
+/* Links style */
 
 a:link {
   text-decoration: none;
@@ -30,6 +34,8 @@ a {
   list-style: none;
 }
 
+/* Header and Navbar */
+
 .HEADER {
   position: absolute;
 
@@ -42,6 +48,12 @@ a {
   background-color: var(--background-dark-color);
 
   z-index: -1;
+}
+
+@media screen and (min-width: 1400px) {
+  .HEADER {
+    width: 2000px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -135,6 +147,8 @@ nav button {
   }
 }
 
+/* Picture */
+
 .gagc {
   position: absolute;
 
@@ -165,6 +179,8 @@ nav button {
     background-size: cover;
   }
 }
+
+/* Information */
 
 .title {
   position: absolute;
@@ -316,6 +332,8 @@ nav button {
   }
 }
 
+/* Price and offers */
+
 .preis {
   position: absolute;
   width: 174px;
@@ -395,6 +413,8 @@ nav button {
      asked me about bootstrap but the color of this parts are unic as is in Figma  */
   color: var(--danger-color) !important;
 }
+
+/* Basket Button and other Stoff */
 
 .btn-box {
   position: absolute;
@@ -530,6 +550,8 @@ nav button {
   }
 }
 
+/* Banner */
+
 .banner {
   position: absolute;
   width: 1170px;
@@ -609,11 +631,13 @@ nav button {
   }
 }
 
+/* Footer */
+
 .footer {
   position: absolute;
   width: 1440px;
   left: 0px;
-  top: 1032px;
+  top: 1030px;
 
   color: var(--light-color);
   background-color: var(--background-dark-color);
@@ -625,6 +649,12 @@ nav button {
   border: none;
 
   background-color: #636363;
+}
+
+@media screen and (min-width: 1400px) {
+  .footer {
+    width: 2000px;
+  }
 }
 
 @media screen and (max-width: 768px) {
