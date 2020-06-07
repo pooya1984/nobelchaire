@@ -1,0 +1,642 @@
+:root {
+  --primary-color: #17a2b8;
+  --warning-color: #ee9310;
+  --dark-color: #272723;
+  --light-color: #f4f4f4;
+  --danger-color: #b12704;
+  --success-color: #70c118;
+  --banner-color: #fcff57;
+  --background-dark-color: #060606;
+  --background-light-color: #f4f4f4;
+}
+
+a:link {
+  text-decoration: none;
+  color: var(--light-color);
+}
+
+a:visited {
+  text-decoration: none;
+  color: var(--light-color);
+}
+
+a:hover {
+  color: var(--warning-color);
+}
+
+ul,
+li,
+a {
+  list-style: none;
+}
+
+.HEADER {
+  position: absolute;
+
+  width: 1440px;
+  height: 153px;
+  left: 0px;
+  top: 0px;
+
+  color: var(--light-color);
+  background-color: var(--background-dark-color);
+
+  z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+  .HEADER {
+    width: 899.7px;
+    height: 156px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .HEADER {
+    width: 600px;
+    height: 156px;
+  }
+}
+
+.logo {
+  position: absolute;
+
+  width: 170.08px;
+  height: 26.9px;
+  left: 135px;
+  top: 34.08px;
+}
+
+@media screen and (max-width: 576px) {
+  .logo {
+    left: 13px;
+  }
+}
+#svg1 {
+  position: absolute;
+
+  left: 9.38%;
+  right: 88.93%;
+  top: 2.8%;
+  bottom: 95%;
+}
+
+#svg2 {
+  position: absolute;
+
+  left: 11%;
+  right: 89.15%;
+  top: 15%;
+  bottom: 90.87%;
+}
+
+#svg {
+  position: absolute;
+
+  left: 30%;
+  right: 78.81%;
+  top: 3%;
+  bottom: 95.39%;
+}
+
+.navbar {
+  width: 1170px;
+  height: 37px;
+  left: 133px;
+  top: 70px;
+
+  z-index: 1;
+}
+
+nav button {
+  margin: 3%;
+  float: right;
+  z-index: 1000;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    width: 80%;
+    height: 37px;
+    left: 133px;
+    top: 95px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    width: 40%;
+    height: 10%;
+    left: 50%;
+    top: 0;
+    float: left;
+
+    font-size: 10px;
+  }
+}
+
+.gagc {
+  position: absolute;
+
+  width: 470px;
+  height: 470px;
+  left: 135px;
+  top: 183px;
+
+  background: url(./img/gagc-118_gagc_118_04.png);
+}
+
+@media screen and (max-width: 768px) {
+  .gagc {
+    width: 200px;
+    height: 200px;
+    left: 70px;
+
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .gagc {
+    width: 300px;
+    height: 289.5px;
+    left: 13px;
+
+    background-size: cover;
+  }
+}
+
+.title {
+  position: absolute;
+
+  width: 570px;
+  height: 386.5px;
+  left: 735px;
+  top: 10px;
+
+  color: var(--light-color);
+
+  z-index: -1;
+}
+
+.sale {
+  position: absolute;
+  visibility: hidden;
+
+  left: 55.9%;
+  right: 41.04%;
+  top: 5.29%;
+  bottom: 93.94%;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: var(--danger-color);
+}
+.new {
+  position: absolute;
+  visibility: hidden;
+
+  left: 51.04%;
+  right: 44.79%;
+  top: 5.55%;
+  bottom: 93.81%;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: var(--dark-color);
+}
+.new2 {
+  position: absolute;
+  visibility: hidden;
+
+  left: 53.89%;
+  right: 41.94%;
+  top: 5.55%;
+  bottom: 93.81%;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: var(--dark-color);
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    left: 250px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .title {
+    left: 20px;
+    top: 300px;
+  }
+}
+
+.title p {
+  position: absolute;
+  width: 570px;
+  height: 54px;
+  top: 191px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 96%;
+
+  color: var(--dark-color);
+}
+
+@media screen and (max-width: 768px) {
+  .title p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .title p {
+    font-size: 12px;
+  }
+}
+
+.info {
+  position: absolute;
+  width: 570px;
+  height: 105px;
+  left: 735px;
+  top: 264px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: var(--dark-color);
+}
+
+@media screen and (max-width: 768px) {
+  .info {
+    top: 220px;
+    width: 400px;
+    left: 250px;
+
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .info {
+    width: 420px;
+    left: 20px;
+    top: 505px;
+
+    font-size: 12px;
+  }
+}
+
+.preis {
+  position: absolute;
+  width: 174px;
+  height: 47px;
+  left: 735px;
+  top: 412px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 25px;
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .preis {
+    width: 330px;
+    left: 250px;
+    top: 330px;
+
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .preis {
+    width: 400px;
+    left: 20px;
+    top: 635px;
+
+    font-size: 1.5rem;
+  }
+}
+
+.t-text {
+  position: absolute;
+  width: 174px;
+  height: 47px;
+  left: 738px;
+  top: 435px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 25px;
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .t-text {
+    width: 174px;
+    height: 47px;
+    left: 250px;
+    top: 347px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .t-text {
+    width: 88%;
+    left: 28px;
+    top: 655.5px;
+
+    font-size: 0.9rem;
+  }
+}
+
+.text-danger {
+  /*            In this part and some other parts like this 
+             I did use bootstrap color and css both beacuse in task would
+     asked me about bootstrap but the color of this parts are unic as is in Figma  */
+  color: var(--danger-color) !important;
+}
+
+.btn-box {
+  position: absolute;
+  width: 570px;
+  height: 44px;
+  left: 735px;
+  top: 481px;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-box {
+    left: 250px;
+    top: 370px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .btn-box {
+    left: 28px;
+    top: 690px;
+  }
+}
+
+.btn-outline {
+  position: absolute;
+  visibility: hidden;
+
+  width: 570px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+
+  background-color: var(--danger-color) !important;
+}
+
+@media screen and (max-width: 576px) {
+  .btn-outline {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .btn-outline {
+    width: 68%;
+  }
+}
+
+.btn-inline {
+  position: absolute;
+  width: 570px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+
+  background-color: var(--success-color) !important;
+}
+
+@media screen and (max-width: 576px) {
+  .btn-inline {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .btn-inline {
+    width: 68%;
+  }
+}
+
+.avail-text {
+  position: absolute;
+  width: 553px;
+  height: 48.85px;
+  left: 768px;
+  top: 537.66px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  align-items: center;
+
+  color: var(--dark-color);
+}
+
+@media screen and (max-width: 768px) {
+  .avail-text {
+    width: 400px;
+    left: 270px;
+    top: 419px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .avail-text {
+    width: 80%;
+    left: 45px;
+    top: 743px;
+
+    font-size: 1rem;
+  }
+}
+
+.orange,
+.red {
+  visibility: hidden;
+}
+
+.green-round {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 745px;
+  top: 542px;
+  border-radius: 50%;
+
+  background: var(--success-color);
+}
+
+@media screen and (max-width: 768px) {
+  .green-round {
+    left: 250px;
+    top: 423px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .green-round {
+    left: 29px;
+    top: 748.6px;
+    font-size: 1rem;
+  }
+}
+
+.banner {
+  position: absolute;
+  width: 1170px;
+  height: 250px;
+  left: 135px;
+  top: 715px;
+
+  color: var(--light-color);
+
+  background-color: var(--banner-color);
+  background-image: url("./img/bannerImg/bg.jpg");
+  background-size: cover;
+}
+
+.banner img {
+  width: 90%;
+}
+
+.banner-image {
+  top: 10%;
+  left: 6%;
+}
+
+.banner-text {
+  top: 8%;
+  left: 4%;
+}
+
+#t1,
+#t3 {
+  font-size: 30px;
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  -webkit-text-stroke: 1px var(--dark-color);
+  text-shadow: 1px 1px 3px var(--light-color);
+}
+#t2 {
+  font-size: 24px;
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  -webkit-text-stroke: 1px var(--dark-color);
+  text-shadow: 1px 1px 3px var(--light-color);
+}
+.banner-text span {
+  color: var(--warning-color);
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    width: 600px;
+    height: 128px;
+    left: 14%;
+    top: 550px;
+  }
+  .banner img {
+    width: 100%;
+  }
+  #t1,
+  #t3 {
+    font-size: 17px;
+  }
+  #t2 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner {
+    width: 430px;
+    left: 10px;
+    top: 850px;
+  }
+  #t1,
+  #t2,
+  #t3 {
+    font-size: 11px;
+  }
+}
+
+.footer {
+  position: absolute;
+  width: 1440px;
+  left: 0px;
+  top: 1032px;
+
+  color: var(--light-color);
+  background-color: var(--background-dark-color);
+}
+
+.footer button {
+  height: 38px;
+  color: var(--light-color);
+  border: none;
+
+  background-color: #636363;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 899.7px;
+    top: 800px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer {
+    width: 600px;
+    top: 1100px;
+  }
+}
